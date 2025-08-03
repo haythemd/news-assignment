@@ -40,5 +40,5 @@ python3 -m uvicorn main:app
 # How to test
 To test the API just access the docs Url:
 ```bash
-https://localhost:80000/docs
+https://127.0.0.1:80000/docs
 ```
