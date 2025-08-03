@@ -13,13 +13,13 @@ cd news-assignment
 
 ## Step 2: Create a Virtual Environment (Optional but Recommended)
 
-# on Linux/MacOS
+### on Linux/MacOS
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
-# on Windows 
+### on Windows 
 
 ```bash
 python3 -m venv venv
@@ -35,4 +35,10 @@ python3 -m pip install -r requirements.txt
 
 ```bash
 python3 -m uvicorn main:app
+```
+
+# How to test
+To test the API just access the docs Url:
+```bash
+https://localhost:80000/docs
 ```
